@@ -1,0 +1,9 @@
+Roboto font files bundled with CustomTkinter 5.2.2
+
+Copyright 2011 Google Inc. All Rights Reserved.
+Licensed under the Apache License, Version 2.0.
+
+This notice transcribes the copyright and license fields embedded in
+Roboto-Regular.ttf and Roboto-Medium.ttf. Their embedded version is
+"Version 2.137; 2017". The full Apache 2.0 license is in LICENSE-APACHE.txt.
+The license text was obtained from the upstream googlefonts/roboto LICENSE.

@@ -1,0 +1,18 @@
+# Versions used by the verified Windows build and bundled license inventory.
+requests==2.32.5
+cryptography==48.0.0
+playwright==1.64.1
+PyYAML==6.0.3
+customtkinter==5.2.2
+Pillow==12.3.0
+certifi==2026.1.4
+charset-normalizer==3.4.4
+urllib3==2.6.3
+idna==3.11
+cffi==2.0.0
+pycparser==3.0
+pyee==14.0.0
+greenlet==3.5.6
+darkdetect==0.8.0
+typing-extensions==4.16.0
+packaging==26.3

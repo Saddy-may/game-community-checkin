@@ -1,0 +1,125 @@
+{
+  "source_type": "Apple App Store China official game listings",
+  "icons": [
+    {
+      "id": "gf2",
+      "name": "少女前线2：追放",
+      "file": "gf2.png",
+      "size": [
+        512,
+        512
+      ],
+      "app_store_id": 1590274853,
+      "bundle_id": "com.Sunborn.SnqxExilium",
+      "seller": "Darkwinter Network Technology Co., Ltd.",
+      "publisher": "Darkwinter Network Technology Co., Ltd.",
+      "store_page": "https://apps.apple.com/cn/app/%E5%B0%91%E5%A5%B3%E5%89%8D%E7%BA%BF2-%E8%BF%BD%E6%94%BE/id1590274853?uo=4",
+      "metadata_source": "https://itunes.apple.com/lookup?id=1590274853%2C6450693428%2C1523037824%2C1454663939%2C6753859465%2C6514281568&country=cn&entity=software",
+      "artwork_source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/24/ac/6e24aca1-ce07-8fb9-41cd-181220b6cff2/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "download_sha256": "1879ec95a36f148f27d9df9b5e06f5dfb15372b1441d5c3283e68312175693cc",
+      "png_sha256": "951044849d31d2e3707dbff604e78985e6ec0f470b3f18ecbd6e51aa95808eb8",
+      "retrieved_date_beijing": "2026-11-03",
+      "processing": "Original official App Store square artwork; converted to PNG without crop or image generation."
+    },
+    {
+      "id": "wuwa",
+      "name": "鸣潮",
+      "file": "wuwa.png",
+      "size": [
+        512,
+        512
+      ],
+      "app_store_id": 6450693428,
+      "bundle_id": "com.kurogame.mingchao",
+      "seller": "Guangzhou Kuro Binaria Technology Co., Ltd",
+      "publisher": "库洛游戏",
+      "store_page": "https://apps.apple.com/cn/app/%E9%B8%A3%E6%BD%AE/id6450693428?uo=4",
+      "metadata_source": "https://itunes.apple.com/lookup?id=1590274853%2C6450693428%2C1523037824%2C1454663939%2C6753859465%2C6514281568&country=cn&entity=software",
+      "artwork_source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e4/cf/3f/e4cf3f12-fccf-58c3-9c87-de268c3d3e2e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "download_sha256": "b41b3a3b3c002a8db0cb75f08d194a265a10c063af7d1176c6f23bd657c3ee73",
+      "png_sha256": "0e81ebd92d7213dc0f3007809363db4ab7a8ec71e6c0f5cfc2185c1921a06c66",
+      "retrieved_date_beijing": "2026-11-03",
+      "processing": "Original official App Store square artwork; converted to PNG without crop or image generation."
+    },
+    {
+      "id": "starrail",
+      "name": "崩坏：星穹铁道",
+      "file": "starrail.png",
+      "size": [
+        512,
+        512
+      ],
+      "app_store_id": 1523037824,
+      "bundle_id": "com.miHoYo.hkrpg",
+      "seller": "Shanghai miHoYo YingTie Technology Co., Ltd.",
+      "publisher": "miHoYo Games",
+      "store_page": "https://apps.apple.com/cn/app/%E5%B4%A9%E5%9D%8F-%E6%98%9F%E7%A9%B9%E9%93%81%E9%81%93/id1523037824?uo=4",
+      "metadata_source": "https://itunes.apple.com/lookup?id=1590274853%2C6450693428%2C1523037824%2C1454663939%2C6753859465%2C6514281568&country=cn&entity=software",
+      "artwork_source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/68/a5/48/68a548c6-05e7-7f18-0adc-f757c19031c8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "download_sha256": "15d3d338bbc2aa80fb6fc465583657e6453e7b004cfb5e29e624337993427869",
+      "png_sha256": "6dcdb4da9bc1fb4ea46bc5b6baf9f611cc299a20ee2cb7b146ff077a15547ace",
+      "retrieved_date_beijing": "2026-11-03",
+      "processing": "Original official App Store square artwork; converted to PNG without crop or image generation."
+    },
+    {
+      "id": "skland_arknights",
+      "name": "明日方舟",
+      "file": "skland_arknights.png",
+      "size": [
+        512,
+        512
+      ],
+      "app_store_id": 1454663939,
+      "bundle_id": "com.hypergryph.arknights",
+      "seller": "Shanghai Hypergryph Network Technology Co., Ltd.",
+      "publisher": "Shanghai Hypergryph Network Technology Co., Ltd.",
+      "store_page": "https://apps.apple.com/cn/app/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F/id1454663939?uo=4",
+      "metadata_source": "https://itunes.apple.com/lookup?id=1590274853%2C6450693428%2C1523037824%2C1454663939%2C6753859465%2C6514281568&country=cn&entity=software",
+      "artwork_source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/61/7f/6d/617f6d74-5328-fd8c-6df4-0b709977abb9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "download_sha256": "c8ae68b9ccf6cfacdc55c6799969abe2d70f5f8c0c68d60dce4e7d0f1a9010b0",
+      "png_sha256": "630854a2df3f6b4acf539e45ccfd51b95edc614a55f3831a1ede927c1de77297",
+      "retrieved_date_beijing": "2026-11-03",
+      "processing": "Original official App Store square artwork; converted to PNG without crop or image generation."
+    },
+    {
+      "id": "skland_endfield",
+      "name": "明日方舟：终末地",
+      "file": "skland_endfield.png",
+      "size": [
+        512,
+        512
+      ],
+      "app_store_id": 6753859465,
+      "bundle_id": "com.hypergryph.endfield",
+      "seller": "Shanghai Hypergryph Talos Network Technology Co.,Ltd.",
+      "publisher": "Shanghai Hypergryph Talos Network Technology Co.,Ltd.",
+      "store_page": "https://apps.apple.com/cn/app/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F-%E7%BB%88%E6%9C%AB%E5%9C%B0/id6753859465?uo=4",
+      "metadata_source": "https://itunes.apple.com/lookup?id=1590274853%2C6450693428%2C1523037824%2C1454663939%2C6753859465%2C6514281568&country=cn&entity=software",
+      "artwork_source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/73/70/7f7370d4-6f46-19fe-0941-b24e9713f5e2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "download_sha256": "8de831b2661202b62b32974b2c33fd06acddcb912052315bff6be44e9b01e152",
+      "png_sha256": "2b8236b9e4c39dc7e7824ffcd14a2d276310682efc697e187e495a0de6990074",
+      "retrieved_date_beijing": "2026-11-03",
+      "processing": "Original official App Store square artwork; converted to PNG without crop or image generation."
+    },
+    {
+      "id": "tajiduo_nte",
+      "name": "异环",
+      "file": "tajiduo_nte.png",
+      "size": [
+        512,
+        512
+      ],
+      "app_store_id": 6514281568,
+      "bundle_id": "com.pwrd.yh.ios",
+      "seller": "Perfect World Interactive Entertainment Co., Ltd",
+      "publisher": "完美世界手游中心",
+      "store_page": "https://apps.apple.com/cn/app/%E5%BC%82%E7%8E%AF/id6514281568?uo=4",
+      "metadata_source": "https://itunes.apple.com/lookup?id=1590274853%2C6450693428%2C1523037824%2C1454663939%2C6753859465%2C6514281568&country=cn&entity=software",
+      "artwork_source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/67/dc/8967dc31-ed86-3907-2306-8a2d09c51e60/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "download_sha256": "f33909b0e1b196e859dff6d01eea0e5684f874cf48a1e1ea6759c08f69169a93",
+      "png_sha256": "21e42f896d7efa8f77455100d561da82f9553cdd50805eb5fa8cdce530b72121",
+      "retrieved_date_beijing": "2026-11-03",
+      "processing": "Original official App Store square artwork; converted to PNG without crop or image generation."
+    }
+  ]
+}

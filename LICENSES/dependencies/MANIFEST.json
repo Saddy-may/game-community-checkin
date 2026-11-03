@@ -1,0 +1,1715 @@
+{
+  "review_date": "2026-11-03",
+  "python_version": "3.13.3",
+  "components": [
+    {
+      "name": "customtkinter",
+      "version": "5.2.2",
+      "declared_license": "Creative Commons Zero v1.0 Universal",
+      "source": "vendor/customtkinter-5.2.2.dist-info",
+      "directory": "customtkinter-5.2.2",
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "darkdetect",
+      "version": "0.8.0",
+      "declared_license": "BSD-3-Clause",
+      "source": "vendor/darkdetect-0.8.0.dist-info",
+      "directory": "darkdetect-0.8.0",
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "packaging",
+      "version": "26.3",
+      "declared_license": "Apache-2.0 OR BSD-2-Clause",
+      "source": "vendor/packaging-26.3.dist-info",
+      "directory": "packaging-26.3",
+      "license_files": [
+        "licenses\\LICENSE",
+        "licenses\\LICENSE.APACHE",
+        "licenses\\LICENSE.BSD"
+      ]
+    },
+    {
+      "name": "pillow",
+      "version": "12.3.0",
+      "declared_license": "MIT-CMU",
+      "source": "vendor/pillow-12.3.0.dist-info",
+      "directory": "pillow-12.3.0",
+      "license_files": [
+        "licenses\\LICENSE"
+      ]
+    },
+    {
+      "name": "playwright",
+      "version": "1.64.1",
+      "declared_license": "Apache-2.0",
+      "source": "vendor/playwright-1.64.1.dist-info",
+      "directory": "playwright-1.64.1",
+      "license_files": [
+        "licenses\\LICENSE"
+      ]
+    },
+    {
+      "name": "greenlet",
+      "version": "3.5.6",
+      "declared_license": "MIT AND PSF-2.0",
+      "source": "vendor/greenlet-3.5.6.dist-info",
+      "directory": "greenlet-3.5.6",
+      "license_files": [
+        "licenses\\LICENSE",
+        "licenses\\LICENSE.PSF"
+      ]
+    },
+    {
+      "name": "pyee",
+      "version": "14.0.0",
+      "declared_license": "MIT",
+      "source": "vendor/pyee-14.0.0.dist-info",
+      "directory": "pyee-14.0.0",
+      "license_files": [
+        "licenses\\LICENSE"
+      ]
+    },
+    {
+      "name": "PyYAML",
+      "version": "6.0.3",
+      "declared_license": "MIT",
+      "source": "vendor/pyyaml-6.0.3.dist-info",
+      "directory": "PyYAML-6.0.3",
+      "license_files": [
+        "licenses\\LICENSE"
+      ]
+    },
+    {
+      "name": "typing_extensions",
+      "version": "4.16.0",
+      "declared_license": "PSF-2.0",
+      "source": "vendor/typing_extensions-4.16.0.dist-info",
+      "directory": "typing_extensions-4.16.0",
+      "license_files": [
+        "licenses\\LICENSE"
+      ]
+    },
+    {
+      "name": "setuptools",
+      "version": "84.2.1",
+      "declared_license": "MIT",
+      "source": "vendor/setuptools-84.2.1.dist-info",
+      "directory": "setuptools-84.2.1",
+      "license_files": [
+        "licenses\\LICENSE"
+      ]
+    },
+    {
+      "name": "pyinstaller",
+      "version": "6.22.3",
+      "declared_license": "GPLv2-or-later with a special exception which allows to use PyInstaller to build and distribute non-free programs (including commercial ones)",
+      "source": "vendor/pyinstaller-6.22.3.dist-info",
+      "directory": "pyinstaller-6.22.3",
+      "license_files": [
+        "licenses\\COPYING.txt"
+      ]
+    },
+    {
+      "name": "pyinstaller-hooks-contrib",
+      "version": "2026.9",
+      "declared_license": null,
+      "source": "vendor/pyinstaller_hooks_contrib-2026.9.dist-info",
+      "directory": "pyinstaller-hooks-contrib-2026.9",
+      "license_files": [
+        "licenses\\LICENSE"
+      ]
+    },
+    {
+      "name": "requests",
+      "version": "2.32.5",
+      "declared_license": "Apache-2.0",
+      "source": "python-install/Lib/site-packages/requests-2.32.5.dist-info",
+      "directory": "requests-2.32.5",
+      "license_files": [
+        "licenses\\LICENSE"
+      ]
+    },
+    {
+      "name": "certifi",
+      "version": "2026.1.4",
+      "declared_license": "MPL-2.0",
+      "source": "python-install/Lib/site-packages/certifi-2026.1.4.dist-info",
+      "directory": "certifi-2026.1.4",
+      "license_files": [
+        "licenses\\LICENSE"
+      ]
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.4.4",
+      "declared_license": "MIT",
+      "source": "python-install/Lib/site-packages/charset_normalizer-3.4.4.dist-info",
+      "directory": "charset-normalizer-3.4.4",
+      "license_files": [
+        "licenses\\LICENSE"
+      ]
+    },
+    {
+      "name": "idna",
+      "version": "3.11",
+      "declared_license": "BSD-3-Clause",
+      "source": "python-install/Lib/site-packages/idna-3.11.dist-info",
+      "directory": "idna-3.11",
+      "license_files": [
+        "licenses\\LICENSE.md"
+      ]
+    },
+    {
+      "name": "urllib3",
+      "version": "2.6.3",
+      "declared_license": "MIT",
+      "source": "python-install/Lib/site-packages/urllib3-2.6.3.dist-info",
+      "directory": "urllib3-2.6.3",
+      "license_files": [
+        "licenses\\LICENSE.txt"
+      ]
+    },
+    {
+      "name": "cryptography",
+      "version": "48.0.0",
+      "declared_license": "Apache-2.0 OR BSD-3-Clause",
+      "source": "python-install/Lib/site-packages/cryptography-48.0.0.dist-info",
+      "directory": "cryptography-48.0.0",
+      "license_files": [
+        "licenses\\LICENSE",
+        "licenses\\LICENSE.APACHE",
+        "licenses\\LICENSE.BSD"
+      ]
+    },
+    {
+      "name": "cffi",
+      "version": "2.0.0",
+      "declared_license": "MIT",
+      "source": "python-install/Lib/site-packages/cffi-2.0.0.dist-info",
+      "directory": "cffi-2.0.0",
+      "license_files": [
+        "licenses\\AUTHORS",
+        "licenses\\LICENSE"
+      ]
+    },
+    {
+      "name": "backports.tarfile",
+      "version": "1.2.0",
+      "declared_license": null,
+      "source": "vendor/setuptools/_vendor/backports.tarfile-1.2.0.dist-info",
+      "directory": "backports.tarfile-1.2.0",
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "jaraco.text",
+      "version": "4.0.0",
+      "declared_license": null,
+      "source": "vendor/setuptools/_vendor/jaraco.text-4.0.0.dist-info",
+      "directory": "jaraco.text-4.0.0",
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "jaraco.context",
+      "version": "6.1.0",
+      "declared_license": "MIT",
+      "source": "vendor/setuptools/_vendor/jaraco_context-6.1.0.dist-info",
+      "directory": "jaraco.context-6.1.0",
+      "license_files": [
+        "licenses\\LICENSE"
+      ]
+    },
+    {
+      "name": "jaraco.functools",
+      "version": "4.4.0",
+      "declared_license": "MIT",
+      "source": "vendor/setuptools/_vendor/jaraco_functools-4.4.0.dist-info",
+      "directory": "jaraco.functools-4.4.0",
+      "license_files": [
+        "licenses\\LICENSE"
+      ]
+    },
+    {
+      "name": "more-itertools",
+      "version": "10.8.0",
+      "declared_license": "MIT",
+      "source": "vendor/setuptools/_vendor/more_itertools-10.8.0.dist-info",
+      "directory": "more-itertools-10.8.0",
+      "license_files": [
+        "licenses\\LICENSE"
+      ]
+    },
+    {
+      "name": "tomli",
+      "version": "2.4.0",
+      "declared_license": "MIT",
+      "source": "vendor/setuptools/_vendor/tomli-2.4.0.dist-info",
+      "directory": "tomli-2.4.0",
+      "license_files": [
+        "licenses\\LICENSE"
+      ]
+    },
+    {
+      "name": "wheel",
+      "version": "0.46.3",
+      "declared_license": "MIT",
+      "source": "vendor/setuptools/_vendor/wheel-0.46.3.dist-info",
+      "directory": "wheel-0.46.3",
+      "license_files": [
+        "licenses\\LICENSE.txt"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "file": "customtkinter-5.2.2/LICENSE",
+      "source": "vendor/customtkinter-5.2.2.dist-info/LICENSE",
+      "sha256": "c973b8600e620159cb0473eb9b08783143e0d9ed5333f350fc933368d94d9e0d"
+    },
+    {
+      "file": "darkdetect-0.8.0/LICENSE",
+      "source": "vendor/darkdetect-0.8.0.dist-info/LICENSE",
+      "sha256": "69bb84664eff933addcb271c866d67622d9c2c53a5bda31b1a7523569c250afe"
+    },
+    {
+      "file": "packaging-26.3/licenses/LICENSE",
+      "source": "vendor/packaging-26.3.dist-info/licenses/LICENSE",
+      "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+    },
+    {
+      "file": "packaging-26.3/licenses/LICENSE.APACHE",
+      "source": "vendor/packaging-26.3.dist-info/licenses/LICENSE.APACHE",
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    {
+      "file": "packaging-26.3/licenses/LICENSE.BSD",
+      "source": "vendor/packaging-26.3.dist-info/licenses/LICENSE.BSD",
+      "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+    },
+    {
+      "file": "pillow-12.3.0/licenses/LICENSE",
+      "source": "vendor/pillow-12.3.0.dist-info/licenses/LICENSE",
+      "sha256": "4f7866a74802c6326f81faff59a56546b6aec2b10b91973e0e9308de95e79857"
+    },
+    {
+      "file": "playwright-1.64.1/licenses/LICENSE",
+      "source": "vendor/playwright-1.64.1.dist-info/licenses/LICENSE",
+      "sha256": "7fab1461b41970ff376f1c9303a637076bfaaeb71cd12dd3a1c44aaf59a1a2b9"
+    },
+    {
+      "file": "greenlet-3.5.6/licenses/LICENSE",
+      "source": "vendor/greenlet-3.5.6.dist-info/licenses/LICENSE",
+      "sha256": "ab977b654605670319509481ece49198f405a129372ac38c96f51cd96c2f452e"
+    },
+    {
+      "file": "greenlet-3.5.6/licenses/LICENSE.PSF",
+      "source": "vendor/greenlet-3.5.6.dist-info/licenses/LICENSE.PSF",
+      "sha256": "69efa689cc7aec7736236d3039c1d665e4b0c734a5bfea5abf633023abb2fff4"
+    },
+    {
+      "file": "pyee-14.0.0/licenses/LICENSE",
+      "source": "vendor/pyee-14.0.0.dist-info/licenses/LICENSE",
+      "sha256": "1ff556ca206b107f10e1c562ae454d3292e0296c3510eb90eb7f114caee32a66"
+    },
+    {
+      "file": "PyYAML-6.0.3/licenses/LICENSE",
+      "source": "vendor/pyyaml-6.0.3.dist-info/licenses/LICENSE",
+      "sha256": "8d3928f9dc4490fd635707cb88eb26bd764102a7282954307d3e5167a577e8a4"
+    },
+    {
+      "file": "typing_extensions-4.16.0/licenses/LICENSE",
+      "source": "vendor/typing_extensions-4.16.0.dist-info/licenses/LICENSE",
+      "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf"
+    },
+    {
+      "file": "setuptools-84.2.1/licenses/LICENSE",
+      "source": "vendor/setuptools-84.2.1.dist-info/licenses/LICENSE",
+      "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741"
+    },
+    {
+      "file": "pyinstaller-6.22.3/licenses/COPYING.txt",
+      "source": "vendor/pyinstaller-6.22.3.dist-info/licenses/COPYING.txt",
+      "sha256": "0598064c7d2718e38d7914a7d08343b2fa008e3bea9ebba2aa7a6ffa5900dd64"
+    },
+    {
+      "file": "pyinstaller-hooks-contrib-2026.9/licenses/LICENSE",
+      "source": "vendor/pyinstaller_hooks_contrib-2026.9.dist-info/licenses/LICENSE",
+      "sha256": "91d0baaff00773038e72c0a1fc9d5d2d38706b7a2b9c04f34296608f931b9cd0"
+    },
+    {
+      "file": "requests-2.32.5/licenses/LICENSE",
+      "source": "python-install/Lib/site-packages/requests-2.32.5.dist-info/licenses/LICENSE",
+      "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b"
+    },
+    {
+      "file": "certifi-2026.1.4/licenses/LICENSE",
+      "source": "python-install/Lib/site-packages/certifi-2026.1.4.dist-info/licenses/LICENSE",
+      "sha256": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7"
+    },
+    {
+      "file": "charset-normalizer-3.4.4/licenses/LICENSE",
+      "source": "python-install/Lib/site-packages/charset_normalizer-3.4.4.dist-info/licenses/LICENSE",
+      "sha256": "18577485d3704f1a479ded8e573c0976cfed315fd2fd17983fa988da4c2f70d1"
+    },
+    {
+      "file": "idna-3.11/licenses/LICENSE.md",
+      "source": "python-install/Lib/site-packages/idna-3.11.dist-info/licenses/LICENSE.md",
+      "sha256": "b7a336abf3b04e180ec065cdd16e705d079e1cc7a14f910aa6e9187f36b9cd87"
+    },
+    {
+      "file": "urllib3-2.6.3/licenses/LICENSE.txt",
+      "source": "python-install/Lib/site-packages/urllib3-2.6.3.dist-info/licenses/LICENSE.txt",
+      "sha256": "130e3a64d5fdd5d096a752694634a7d9df284469de86e5732100268041e3d686"
+    },
+    {
+      "file": "cryptography-48.0.0/licenses/LICENSE",
+      "source": "python-install/Lib/site-packages/cryptography-48.0.0.dist-info/licenses/LICENSE",
+      "sha256": "3e0c7c091a948b82533ba98fd7cbb40432d6f1a9acbf85f5922d2f99a93ae6bb"
+    },
+    {
+      "file": "cryptography-48.0.0/licenses/LICENSE.APACHE",
+      "source": "python-install/Lib/site-packages/cryptography-48.0.0.dist-info/licenses/LICENSE.APACHE",
+      "sha256": "aac73b3148f6d1d7111dbca32099f68d26c644c6813ae1e4f05f6579aa2663fe"
+    },
+    {
+      "file": "cryptography-48.0.0/licenses/LICENSE.BSD",
+      "source": "python-install/Lib/site-packages/cryptography-48.0.0.dist-info/licenses/LICENSE.BSD",
+      "sha256": "602c4c7482de6479dd2e9793cda275e5e63d773dacd1eca689232ab7008fb4fb"
+    },
+    {
+      "file": "cffi-2.0.0/licenses/AUTHORS",
+      "source": "python-install/Lib/site-packages/cffi-2.0.0.dist-info/licenses/AUTHORS",
+      "sha256": "2a67a60bbfb33759d67d645ff131b8e6d6bc4cafc232d751fcac3eda4d314cc8"
+    },
+    {
+      "file": "cffi-2.0.0/licenses/LICENSE",
+      "source": "python-install/Lib/site-packages/cffi-2.0.0.dist-info/licenses/LICENSE",
+      "sha256": "5ba24ddc57067f9249add644c3afc41a5d6dc37e23433ef759d95df370b0af63"
+    },
+    {
+      "file": "backports.tarfile-1.2.0/LICENSE",
+      "source": "vendor/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/LICENSE",
+      "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741"
+    },
+    {
+      "file": "jaraco.text-4.0.0/LICENSE",
+      "source": "vendor/setuptools/_vendor/jaraco.text-4.0.0.dist-info/LICENSE",
+      "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741"
+    },
+    {
+      "file": "jaraco.context-6.1.0/licenses/LICENSE",
+      "source": "vendor/setuptools/_vendor/jaraco_context-6.1.0.dist-info/licenses/LICENSE",
+      "sha256": "9755a18519666e5f0f4cae3daad3d7012bcae48a600b31237d75e9fe134e6683"
+    },
+    {
+      "file": "jaraco.functools-4.4.0/licenses/LICENSE",
+      "source": "vendor/setuptools/_vendor/jaraco_functools-4.4.0.dist-info/licenses/LICENSE",
+      "sha256": "5a57cb4db85e2a2dd88c290628908add57e3451449e0a9a71fdfb38776fd759d"
+    },
+    {
+      "file": "more-itertools-10.8.0/licenses/LICENSE",
+      "source": "vendor/setuptools/_vendor/more_itertools-10.8.0.dist-info/licenses/LICENSE",
+      "sha256": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46"
+    },
+    {
+      "file": "tomli-2.4.0/licenses/LICENSE",
+      "source": "vendor/setuptools/_vendor/tomli-2.4.0.dist-info/licenses/LICENSE",
+      "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe"
+    },
+    {
+      "file": "wheel-0.46.3/licenses/LICENSE.txt",
+      "source": "vendor/setuptools/_vendor/wheel-0.46.3.dist-info/licenses/LICENSE.txt",
+      "sha256": "30c23618679108f3e8ea1d2a658c7ca417bdfc891c98ef1a89fa4ff0c9828654"
+    },
+    {
+      "file": "Python-3.13.3/LICENSE.txt",
+      "source": "python-install/LICENSE.txt",
+      "sha256": "62bec384df47b0328307db41455ff6ea2559e5546b394ac69148561b21703120"
+    },
+    {
+      "file": "Tk-8.6.15/license.terms",
+      "source": "python-install/tcl/tk8.6/license.terms",
+      "sha256": "0d1e4405f6273f091732764ed89b57066be63ce64869be6c71ea337dc4f2f9b5"
+    },
+    {
+      "file": "playwright-1.64.1/driver/LICENSE",
+      "source": "vendor/playwright/driver/LICENSE",
+      "sha256": "ed34dd8e3f0a78dbaf00d0444ce8e285b015b765379c2e17880455f70370f8e9"
+    },
+    {
+      "file": "playwright-1.64.1/driver/package/lib/serverRegistry.js.LICENSE",
+      "source": "vendor/playwright/driver/package/lib/serverRegistry.js.LICENSE",
+      "sha256": "3098a6efcbc11752cbdf6075fa65480f5470f78c8d981fab9c0796dc9a41cefe"
+    },
+    {
+      "file": "playwright-1.64.1/driver/package/lib/utilsBundle.js.LICENSE",
+      "source": "vendor/playwright/driver/package/lib/utilsBundle.js.LICENSE",
+      "sha256": "1362b7f413c08083af537384162ab69a323d019fe26e0a2cd78536fafd6b9cbf"
+    },
+    {
+      "file": "playwright-1.64.1/driver/package/lib/webp_codec.LICENSE",
+      "source": "vendor/playwright/driver/package/lib/webp_codec.LICENSE",
+      "sha256": "995c7ee35aceb7666829b7a501ca89c0864e12b493c1174b155774ab1e03d831"
+    },
+    {
+      "file": "playwright-1.64.1/driver/package/LICENSE",
+      "source": "vendor/playwright/driver/package/LICENSE",
+      "sha256": "45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb"
+    },
+    {
+      "file": "playwright-1.64.1/driver/package/NOTICE",
+      "source": "vendor/playwright/driver/package/NOTICE",
+      "sha256": "6d602191187b35b9b01d2cffa01c8469c2c8d9de8a96f1bf868e0f264f51c81d"
+    },
+    {
+      "file": "playwright-1.64.1/driver/package/ThirdPartyNotices.txt",
+      "source": "vendor/playwright/driver/package/ThirdPartyNotices.txt",
+      "sha256": "a549d329bad8806fe279f0ecae0fc0270dec7e7c2dc8ec10f90e394f7c32b144"
+    },
+    {
+      "file": "cryptography-48.0.0/sboms/cryptography-rust.cyclonedx.json",
+      "source": "python-install/Lib/site-packages/cryptography-48.0.0.dist-info/sboms/cryptography-rust.cyclonedx.json",
+      "sha256": "e36672336b2aa191a979d9cffd83ee2d38d99501f6f78b8a8f127938ef4682e3"
+    },
+    {
+      "file": "cryptography-48.0.0/sboms/sbom.json",
+      "source": "python-install/Lib/site-packages/cryptography-48.0.0.dist-info/sboms/sbom.json",
+      "sha256": "e6cc12d0c30a7afa9ca711b52906d901fba24bea57c814adf3ce7d5fe1c6c63a"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/asn1_derive-0.24.1/LICENSE",
+      "source": "https://static.crates.io/crates/asn1_derive/asn1_derive-0.24.1.crate#asn1_derive-0.24.1/LICENSE",
+      "sha256": "c6deb2d156619439e147f8b62e1b3928598c8e3652ec8b56cc039490696b3985"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/cfg-if-1.0.4/LICENSE-APACHE",
+      "source": "https://static.crates.io/crates/cfg-if/cfg-if-1.0.4.crate#cfg-if-1.0.4/LICENSE-APACHE",
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/cfg-if-1.0.4/LICENSE-MIT",
+      "source": "https://static.crates.io/crates/cfg-if/cfg-if-1.0.4.crate#cfg-if-1.0.4/LICENSE-MIT",
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/bitflags-2.11.1/LICENSE-APACHE",
+      "source": "https://static.crates.io/crates/bitflags/bitflags-2.11.1.crate#bitflags-2.11.1/LICENSE-APACHE",
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/bitflags-2.11.1/LICENSE-MIT",
+      "source": "https://static.crates.io/crates/bitflags/bitflags-2.11.1.crate#bitflags-2.11.1/LICENSE-MIT",
+      "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/find-msvc-tools-0.1.9/LICENSE-APACHE",
+      "source": "https://static.crates.io/crates/find-msvc-tools/find-msvc-tools-0.1.9.crate#find-msvc-tools-0.1.9/LICENSE-APACHE",
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/find-msvc-tools-0.1.9/LICENSE-MIT",
+      "source": "https://static.crates.io/crates/find-msvc-tools/find-msvc-tools-0.1.9.crate#find-msvc-tools-0.1.9/LICENSE-MIT",
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/asn1-0.24.1/LICENSE",
+      "source": "https://static.crates.io/crates/asn1/asn1-0.24.1.crate#asn1-0.24.1/LICENSE",
+      "sha256": "c6deb2d156619439e147f8b62e1b3928598c8e3652ec8b56cc039490696b3985"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/base64-0.22.1/LICENSE-APACHE",
+      "source": "https://static.crates.io/crates/base64/base64-0.22.1.crate#base64-0.22.1/LICENSE-APACHE",
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/base64-0.22.1/LICENSE-MIT",
+      "source": "https://static.crates.io/crates/base64/base64-0.22.1.crate#base64-0.22.1/LICENSE-MIT",
+      "sha256": "0dd882e53de11566d50f8e8e2d5a651bcf3fabee4987d70f306233cf39094ba7"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/cc-1.2.61/LICENSE-APACHE",
+      "source": "https://static.crates.io/crates/cc/cc-1.2.61.crate#cc-1.2.61/LICENSE-APACHE",
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/cc-1.2.61/LICENSE-MIT",
+      "source": "https://static.crates.io/crates/cc/cc-1.2.61.crate#cc-1.2.61/LICENSE-MIT",
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/foreign-types-0.3.2/LICENSE-APACHE",
+      "source": "https://static.crates.io/crates/foreign-types/foreign-types-0.3.2.crate#foreign-types-0.3.2/LICENSE-APACHE",
+      "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/foreign-types-0.3.2/LICENSE-MIT",
+      "source": "https://static.crates.io/crates/foreign-types/foreign-types-0.3.2.crate#foreign-types-0.3.2/LICENSE-MIT",
+      "sha256": "333ea3aaa3cadb819f4acd9f9153f9feee060a995ca8710f32bc5bd9a4b91734"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/heck-0.5.0/LICENSE-APACHE",
+      "source": "https://static.crates.io/crates/heck/heck-0.5.0.crate#heck-0.5.0/LICENSE-APACHE",
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/heck-0.5.0/LICENSE-MIT",
+      "source": "https://static.crates.io/crates/heck/heck-0.5.0.crate#heck-0.5.0/LICENSE-MIT",
+      "sha256": "7b63ecd5f1902af1b63729947373683c32745c16a10e8e6292e2e2dcd7e90ae0"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/foreign-types-shared-0.1.1/LICENSE-APACHE",
+      "source": "https://static.crates.io/crates/foreign-types-shared/foreign-types-shared-0.1.1.crate#foreign-types-shared-0.1.1/LICENSE-APACHE",
+      "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/foreign-types-shared-0.1.1/LICENSE-MIT",
+      "source": "https://static.crates.io/crates/foreign-types-shared/foreign-types-shared-0.1.1.crate#foreign-types-shared-0.1.1/LICENSE-MIT",
+      "sha256": "333ea3aaa3cadb819f4acd9f9153f9feee060a995ca8710f32bc5bd9a4b91734"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/itoa-1.0.18/LICENSE-APACHE",
+      "source": "https://static.crates.io/crates/itoa/itoa-1.0.18.crate#itoa-1.0.18/LICENSE-APACHE",
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/itoa-1.0.18/LICENSE-MIT",
+      "source": "https://static.crates.io/crates/itoa/itoa-1.0.18.crate#itoa-1.0.18/LICENSE-MIT",
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/once_cell-1.21.4/LICENSE-APACHE",
+      "source": "https://static.crates.io/crates/once_cell/once_cell-1.21.4.crate#once_cell-1.21.4/LICENSE-APACHE",
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/once_cell-1.21.4/LICENSE-MIT",
+      "source": "https://static.crates.io/crates/once_cell/once_cell-1.21.4.crate#once_cell-1.21.4/LICENSE-MIT",
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/libc-0.2.186/LICENSE-APACHE",
+      "source": "https://static.crates.io/crates/libc/libc-0.2.186.crate#libc-0.2.186/LICENSE-APACHE",
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/libc-0.2.186/LICENSE-MIT",
+      "source": "https://static.crates.io/crates/libc/libc-0.2.186.crate#libc-0.2.186/LICENSE-MIT",
+      "sha256": "123a331b5dbf04c30097fa43b8f858bc85df671fe776de498d01f3d6b7c1f69e"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/openssl-macros-0.1.1/LICENSE-APACHE",
+      "source": "https://static.crates.io/crates/openssl-macros/openssl-macros-0.1.1.crate#openssl-macros-0.1.1/LICENSE-APACHE",
+      "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/openssl-macros-0.1.1/LICENSE-MIT",
+      "source": "https://static.crates.io/crates/openssl-macros/openssl-macros-0.1.1.crate#openssl-macros-0.1.1/LICENSE-MIT",
+      "sha256": "ea5ab440900ab271811d5c2dc02a9de6e03a6956ac5727e85c11d76df5883d30"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/pem-3.0.6/LICENSE.md",
+      "source": "https://static.crates.io/crates/pem/pem-3.0.6.crate#pem-3.0.6/LICENSE.md",
+      "sha256": "b7c76ff4466a3aeb6a7d903e81b651335e97d64ecb857e2ee9812a36c6fd1acf"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/openssl-sys-0.9.115/LICENSE-MIT",
+      "source": "https://static.crates.io/crates/openssl-sys/openssl-sys-0.9.115.crate#openssl-sys-0.9.115/LICENSE-MIT",
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/pkg-config-0.3.33/LICENSE-APACHE",
+      "source": "https://static.crates.io/crates/pkg-config/pkg-config-0.3.33.crate#pkg-config-0.3.33/LICENSE-APACHE",
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/pkg-config-0.3.33/LICENSE-MIT",
+      "source": "https://static.crates.io/crates/pkg-config/pkg-config-0.3.33.crate#pkg-config-0.3.33/LICENSE-MIT",
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/openssl-0.10.79/LICENSE",
+      "source": "https://static.crates.io/crates/openssl/openssl-0.10.79.crate#openssl-0.10.79/LICENSE",
+      "sha256": "f3d4287b4a21c5176fea2f9bd4ae800696004e2fb8e05cbc818be513f188a941"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/openssl-0.10.79/LICENSE-APACHE",
+      "source": "https://static.crates.io/crates/openssl/openssl-0.10.79.crate#openssl-0.10.79/LICENSE-APACHE",
+      "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/portable-atomic-1.13.1/LICENSE-APACHE",
+      "source": "https://static.crates.io/crates/portable-atomic/portable-atomic-1.13.1.crate#portable-atomic-1.13.1/LICENSE-APACHE",
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/portable-atomic-1.13.1/LICENSE-MIT",
+      "source": "https://static.crates.io/crates/portable-atomic/portable-atomic-1.13.1.crate#portable-atomic-1.13.1/LICENSE-MIT",
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/proc-macro2-1.0.106/LICENSE-APACHE",
+      "source": "https://static.crates.io/crates/proc-macro2/proc-macro2-1.0.106.crate#proc-macro2-1.0.106/LICENSE-APACHE",
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/proc-macro2-1.0.106/LICENSE-MIT",
+      "source": "https://static.crates.io/crates/proc-macro2/proc-macro2-1.0.106.crate#proc-macro2-1.0.106/LICENSE-MIT",
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/pyo3-build-config-0.28.3/LICENSE-APACHE",
+      "source": "https://static.crates.io/crates/pyo3-build-config/pyo3-build-config-0.28.3.crate#pyo3-build-config-0.28.3/LICENSE-APACHE",
+      "sha256": "32c76dbe0e73d79100d5ece77c158399f2e2541bc5c78548a4ba45c1cb53c5c9"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/pyo3-build-config-0.28.3/LICENSE-MIT",
+      "source": "https://static.crates.io/crates/pyo3-build-config/pyo3-build-config-0.28.3.crate#pyo3-build-config-0.28.3/LICENSE-MIT",
+      "sha256": "afcbe3b2e6b37172b5a9ca869ee4c0b8cdc09316e5d4384864154482c33e5af6"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/pyo3-ffi-0.28.3/LICENSE-APACHE",
+      "source": "https://static.crates.io/crates/pyo3-ffi/pyo3-ffi-0.28.3.crate#pyo3-ffi-0.28.3/LICENSE-APACHE",
+      "sha256": "32c76dbe0e73d79100d5ece77c158399f2e2541bc5c78548a4ba45c1cb53c5c9"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/pyo3-ffi-0.28.3/LICENSE-MIT",
+      "source": "https://static.crates.io/crates/pyo3-ffi/pyo3-ffi-0.28.3.crate#pyo3-ffi-0.28.3/LICENSE-MIT",
+      "sha256": "afcbe3b2e6b37172b5a9ca869ee4c0b8cdc09316e5d4384864154482c33e5af6"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/pyo3-macros-0.28.3/LICENSE-APACHE",
+      "source": "https://static.crates.io/crates/pyo3-macros/pyo3-macros-0.28.3.crate#pyo3-macros-0.28.3/LICENSE-APACHE",
+      "sha256": "32c76dbe0e73d79100d5ece77c158399f2e2541bc5c78548a4ba45c1cb53c5c9"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/pyo3-macros-0.28.3/LICENSE-MIT",
+      "source": "https://static.crates.io/crates/pyo3-macros/pyo3-macros-0.28.3.crate#pyo3-macros-0.28.3/LICENSE-MIT",
+      "sha256": "afcbe3b2e6b37172b5a9ca869ee4c0b8cdc09316e5d4384864154482c33e5af6"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/pyo3-macros-backend-0.28.3/LICENSE-APACHE",
+      "source": "https://static.crates.io/crates/pyo3-macros-backend/pyo3-macros-backend-0.28.3.crate#pyo3-macros-backend-0.28.3/LICENSE-APACHE",
+      "sha256": "32c76dbe0e73d79100d5ece77c158399f2e2541bc5c78548a4ba45c1cb53c5c9"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/pyo3-macros-backend-0.28.3/LICENSE-MIT",
+      "source": "https://static.crates.io/crates/pyo3-macros-backend/pyo3-macros-backend-0.28.3.crate#pyo3-macros-backend-0.28.3/LICENSE-MIT",
+      "sha256": "afcbe3b2e6b37172b5a9ca869ee4c0b8cdc09316e5d4384864154482c33e5af6"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/quote-1.0.45/LICENSE-APACHE",
+      "source": "https://static.crates.io/crates/quote/quote-1.0.45.crate#quote-1.0.45/LICENSE-APACHE",
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/quote-1.0.45/LICENSE-MIT",
+      "source": "https://static.crates.io/crates/quote/quote-1.0.45.crate#quote-1.0.45/LICENSE-MIT",
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/self_cell-1.2.2/LICENSE-APACHE",
+      "source": "https://static.crates.io/crates/self_cell/self_cell-1.2.2.crate#self_cell-1.2.2/LICENSE-APACHE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/self_cell-1.2.2/LICENSE-GPLv2",
+      "source": "https://static.crates.io/crates/self_cell/self_cell-1.2.2.crate#self_cell-1.2.2/LICENSE-GPLv2",
+      "sha256": "f9c375a1be4a41f7b70301dd83c91cb89e41567478859b77eef375a52d782505"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/pyo3-0.28.3/LICENSE-APACHE",
+      "source": "https://static.crates.io/crates/pyo3/pyo3-0.28.3.crate#pyo3-0.28.3/LICENSE-APACHE",
+      "sha256": "32c76dbe0e73d79100d5ece77c158399f2e2541bc5c78548a4ba45c1cb53c5c9"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/pyo3-0.28.3/LICENSE-MIT",
+      "source": "https://static.crates.io/crates/pyo3/pyo3-0.28.3.crate#pyo3-0.28.3/LICENSE-MIT",
+      "sha256": "afcbe3b2e6b37172b5a9ca869ee4c0b8cdc09316e5d4384864154482c33e5af6"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/pyo3-0.28.3/pyo3-runtime/LICENSE-APACHE",
+      "source": "https://static.crates.io/crates/pyo3/pyo3-0.28.3.crate#pyo3-0.28.3/pyo3-runtime/LICENSE-APACHE",
+      "sha256": "32c76dbe0e73d79100d5ece77c158399f2e2541bc5c78548a4ba45c1cb53c5c9"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/pyo3-0.28.3/pyo3-runtime/LICENSE-MIT",
+      "source": "https://static.crates.io/crates/pyo3/pyo3-0.28.3.crate#pyo3-0.28.3/pyo3-runtime/LICENSE-MIT",
+      "sha256": "afcbe3b2e6b37172b5a9ca869ee4c0b8cdc09316e5d4384864154482c33e5af6"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/shlex-1.3.0/LICENSE-APACHE",
+      "source": "https://static.crates.io/crates/shlex/shlex-1.3.0.crate#shlex-1.3.0/LICENSE-APACHE",
+      "sha256": "553fffcd9b1cb158bc3e9edc35da85ca5c3b3d7d2e61c883ebcfa8a65814b583"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/shlex-1.3.0/LICENSE-MIT",
+      "source": "https://static.crates.io/crates/shlex/shlex-1.3.0.crate#shlex-1.3.0/LICENSE-MIT",
+      "sha256": "4455bf75a91154108304cb283e0fea9948c14f13e20d60887cf2552449dea3b1"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/target-lexicon-0.13.5/LICENSE",
+      "source": "https://static.crates.io/crates/target-lexicon/target-lexicon-0.13.5.crate#target-lexicon-0.13.5/LICENSE",
+      "sha256": "268872b9816f90fd8e85db5a28d33f8150ebb8dd016653fb39ef1f94f2686bc5"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/unicode-ident-1.0.24/LICENSE-APACHE",
+      "source": "https://static.crates.io/crates/unicode-ident/unicode-ident-1.0.24.crate#unicode-ident-1.0.24/LICENSE-APACHE",
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/unicode-ident-1.0.24/LICENSE-MIT",
+      "source": "https://static.crates.io/crates/unicode-ident/unicode-ident-1.0.24.crate#unicode-ident-1.0.24/LICENSE-MIT",
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/unicode-ident-1.0.24/LICENSE-UNICODE",
+      "source": "https://static.crates.io/crates/unicode-ident/unicode-ident-1.0.24.crate#unicode-ident-1.0.24/LICENSE-UNICODE",
+      "sha256": "f7db81051789b729fea528a63ec4c938fdcb93d9d61d97dc8cc2e9df6d47f2a1"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/syn-2.0.117/LICENSE-APACHE",
+      "source": "https://static.crates.io/crates/syn/syn-2.0.117.crate#syn-2.0.117/LICENSE-APACHE",
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/syn-2.0.117/LICENSE-MIT",
+      "source": "https://static.crates.io/crates/syn/syn-2.0.117.crate#syn-2.0.117/LICENSE-MIT",
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/vcpkg-0.2.15/LICENSE-APACHE",
+      "source": "https://static.crates.io/crates/vcpkg/vcpkg-0.2.15.crate#vcpkg-0.2.15/LICENSE-APACHE",
+      "sha256": "60c93a31f490375aadf64098b75f10715010379541021e00261045d7800611d3"
+    },
+    {
+      "file": "cryptography-48.0.0/rust-dependencies/vcpkg-0.2.15/LICENSE-MIT",
+      "source": "https://static.crates.io/crates/vcpkg/vcpkg-0.2.15.crate#vcpkg-0.2.15/LICENSE-MIT",
+      "sha256": "016d20f335060a70e79d9fcf8dfaa6201114d65d592211f4bdfb8ae9ca2bc1dc"
+    },
+    {
+      "file": "Roboto-2.137/LICENSE-APACHE.txt",
+      "source": "https://raw.githubusercontent.com/googlefonts/roboto/main/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "file": "certifi-2026.1.4/MPL-2.0.txt",
+      "source": "https://www.mozilla.org/media/MPL/2.0/index.txt",
+      "sha256": "3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04"
+    },
+    {
+      "file": "OpenSSL-4.0.0/LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/openssl/openssl/openssl-4.0.0/LICENSE.txt",
+      "sha256": "7d5450cb2d142651b8afa315b5f238efc805dad827d91ba367d8516bc9d49e7a"
+    },
+    {
+      "file": "OpenSSL-3.0.16/LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/openssl/openssl/openssl-3.0.16/LICENSE.txt",
+      "sha256": "7d5450cb2d142651b8afa315b5f238efc805dad827d91ba367d8516bc9d49e7a"
+    },
+    {
+      "file": "Tcl-8.6.15/license.terms",
+      "source": "https://raw.githubusercontent.com/tcltk/tcl/core-8-6-15/license.terms",
+      "sha256": "c0a69a2bfd757361ec7e6143973b103c90409316b49e9c88db26ad6388e79f16"
+    },
+    {
+      "file": "libffi-3.4.4/LICENSE",
+      "source": "https://raw.githubusercontent.com/libffi/libffi/v3.4.4/LICENSE",
+      "sha256": "2c9c2acb9743e6b007b91350475308aee44691d96aa20eacef8e199988c8c388"
+    },
+    {
+      "file": "zlib-1.3.1/LICENSE",
+      "source": "https://raw.githubusercontent.com/madler/zlib/v1.3.1/LICENSE",
+      "sha256": "845efc77857d485d91fb3e0b884aaa929368c717ae8186b66fe1ed2495753243"
+    },
+    {
+      "file": "xz-5.2.5/COPYING",
+      "source": "https://raw.githubusercontent.com/python/cpython-source-deps/xz-5.2.5/COPYING",
+      "sha256": "bcb02973ef6e87ea73d331b3a80df7748407f17efdb784b61b47e0e610d3bb5c"
+    },
+    {
+      "file": "expat-cpython-3.13.3/COPYING",
+      "source": "https://raw.githubusercontent.com/python/cpython/v3.13.3/Modules/expat/COPYING",
+      "sha256": "122f2c27000472a201d337b9b31f7eb2b52d091b02857061a8880371612d9534"
+    },
+    {
+      "file": "mpdecimal-4.0.0/COPYRIGHT.txt",
+      "source": "https://raw.githubusercontent.com/python/cpython-source-deps/mpdecimal-4.0.0/COPYRIGHT.txt",
+      "sha256": "2713324211652ce4a60e6e21e54f9dc3004299e591b0933a352f1a89c5fb53c2"
+    },
+    {
+      "file": "Roboto-2.137/NOTICE.txt",
+      "source": "transcribed from bundled TTF metadata; explanatory notice authored for this distribution",
+      "sha256": "b736b93ecb3500c100f4fa27d6dca75885d8e65ddad99705de0a8a4a47a2ca70"
+    }
+  ],
+  "cryptography_rust_dependency_licenses": [
+    {
+      "name": "asn1",
+      "version": "0.24.1",
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "source": "https://static.crates.io/crates/asn1/asn1-0.24.1.crate",
+      "archive_sha256": "c9795210620c0cb3f9a7ce4f882808c38e1ef7b347c90591dceae0886e031fb1",
+      "files": [
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/asn1-0.24.1/LICENSE",
+          "source": "https://static.crates.io/crates/asn1/asn1-0.24.1.crate#asn1-0.24.1/LICENSE",
+          "sha256": "c6deb2d156619439e147f8b62e1b3928598c8e3652ec8b56cc039490696b3985"
+        }
+      ]
+    },
+    {
+      "name": "asn1_derive",
+      "version": "0.24.1",
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "source": "https://static.crates.io/crates/asn1_derive/asn1_derive-0.24.1.crate",
+      "archive_sha256": "909e307f1cc32bb8bccbd98f446e6d1bf03fa30f7b53a4337da7181ad30fa11a",
+      "files": [
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/asn1_derive-0.24.1/LICENSE",
+          "source": "https://static.crates.io/crates/asn1_derive/asn1_derive-0.24.1.crate#asn1_derive-0.24.1/LICENSE",
+          "sha256": "c6deb2d156619439e147f8b62e1b3928598c8e3652ec8b56cc039490696b3985"
+        }
+      ]
+    },
+    {
+      "name": "base64",
+      "version": "0.22.1",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "source": "https://static.crates.io/crates/base64/base64-0.22.1.crate",
+      "archive_sha256": "72b3254f16251a8381aa12e40e3c4d2f0199f8c6508fbecb9d91f575e0fbb8c6",
+      "files": [
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/base64-0.22.1/LICENSE-APACHE",
+          "source": "https://static.crates.io/crates/base64/base64-0.22.1.crate#base64-0.22.1/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/base64-0.22.1/LICENSE-MIT",
+          "source": "https://static.crates.io/crates/base64/base64-0.22.1.crate#base64-0.22.1/LICENSE-MIT",
+          "sha256": "0dd882e53de11566d50f8e8e2d5a651bcf3fabee4987d70f306233cf39094ba7"
+        }
+      ]
+    },
+    {
+      "name": "bitflags",
+      "version": "2.11.1",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "source": "https://static.crates.io/crates/bitflags/bitflags-2.11.1.crate",
+      "archive_sha256": "c4512299f36f043ab09a583e57bceb5a5aab7a73db1805848e8fef3c9e8c78b3",
+      "files": [
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/bitflags-2.11.1/LICENSE-APACHE",
+          "source": "https://static.crates.io/crates/bitflags/bitflags-2.11.1.crate#bitflags-2.11.1/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/bitflags-2.11.1/LICENSE-MIT",
+          "source": "https://static.crates.io/crates/bitflags/bitflags-2.11.1.crate#bitflags-2.11.1/LICENSE-MIT",
+          "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb"
+        }
+      ]
+    },
+    {
+      "name": "cc",
+      "version": "1.2.61",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "source": "https://static.crates.io/crates/cc/cc-1.2.61.crate",
+      "archive_sha256": "d16d90359e986641506914ba71350897565610e87ce0ad9e6f28569db3dd5c6d",
+      "files": [
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/cc-1.2.61/LICENSE-APACHE",
+          "source": "https://static.crates.io/crates/cc/cc-1.2.61.crate#cc-1.2.61/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/cc-1.2.61/LICENSE-MIT",
+          "source": "https://static.crates.io/crates/cc/cc-1.2.61.crate#cc-1.2.61/LICENSE-MIT",
+          "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+        }
+      ]
+    },
+    {
+      "name": "cfg-if",
+      "version": "1.0.4",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "source": "https://static.crates.io/crates/cfg-if/cfg-if-1.0.4.crate",
+      "archive_sha256": "9330f8b2ff13f34540b44e946ef35111825727b38d33286ef986142615121801",
+      "files": [
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/cfg-if-1.0.4/LICENSE-APACHE",
+          "source": "https://static.crates.io/crates/cfg-if/cfg-if-1.0.4.crate#cfg-if-1.0.4/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/cfg-if-1.0.4/LICENSE-MIT",
+          "source": "https://static.crates.io/crates/cfg-if/cfg-if-1.0.4.crate#cfg-if-1.0.4/LICENSE-MIT",
+          "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+        }
+      ]
+    },
+    {
+      "name": "find-msvc-tools",
+      "version": "0.1.9",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "source": "https://static.crates.io/crates/find-msvc-tools/find-msvc-tools-0.1.9.crate",
+      "archive_sha256": "5baebc0774151f905a1a2cc41989300b1e6fbb29aff0ceffa1064fdd3088d582",
+      "files": [
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/find-msvc-tools-0.1.9/LICENSE-APACHE",
+          "source": "https://static.crates.io/crates/find-msvc-tools/find-msvc-tools-0.1.9.crate#find-msvc-tools-0.1.9/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/find-msvc-tools-0.1.9/LICENSE-MIT",
+          "source": "https://static.crates.io/crates/find-msvc-tools/find-msvc-tools-0.1.9.crate#find-msvc-tools-0.1.9/LICENSE-MIT",
+          "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+        }
+      ]
+    },
+    {
+      "name": "foreign-types",
+      "version": "0.3.2",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "source": "https://static.crates.io/crates/foreign-types/foreign-types-0.3.2.crate",
+      "archive_sha256": "f6f339eb8adc052cd2ca78910fda869aefa38d22d5cb648e6485e4d3fc06f3b1",
+      "files": [
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/foreign-types-0.3.2/LICENSE-APACHE",
+          "source": "https://static.crates.io/crates/foreign-types/foreign-types-0.3.2.crate#foreign-types-0.3.2/LICENSE-APACHE",
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+        },
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/foreign-types-0.3.2/LICENSE-MIT",
+          "source": "https://static.crates.io/crates/foreign-types/foreign-types-0.3.2.crate#foreign-types-0.3.2/LICENSE-MIT",
+          "sha256": "333ea3aaa3cadb819f4acd9f9153f9feee060a995ca8710f32bc5bd9a4b91734"
+        }
+      ]
+    },
+    {
+      "name": "foreign-types-shared",
+      "version": "0.1.1",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "source": "https://static.crates.io/crates/foreign-types-shared/foreign-types-shared-0.1.1.crate",
+      "archive_sha256": "00b0228411908ca8685dba7fc2cdd70ec9990a6e753e89b6ac91a84c40fbaf4b",
+      "files": [
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/foreign-types-shared-0.1.1/LICENSE-APACHE",
+          "source": "https://static.crates.io/crates/foreign-types-shared/foreign-types-shared-0.1.1.crate#foreign-types-shared-0.1.1/LICENSE-APACHE",
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+        },
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/foreign-types-shared-0.1.1/LICENSE-MIT",
+          "source": "https://static.crates.io/crates/foreign-types-shared/foreign-types-shared-0.1.1.crate#foreign-types-shared-0.1.1/LICENSE-MIT",
+          "sha256": "333ea3aaa3cadb819f4acd9f9153f9feee060a995ca8710f32bc5bd9a4b91734"
+        }
+      ]
+    },
+    {
+      "name": "heck",
+      "version": "0.5.0",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "source": "https://static.crates.io/crates/heck/heck-0.5.0.crate",
+      "archive_sha256": "2304e00983f87ffb38b55b444b5e3b60a884b5d30c0fca7d82fe33449bbe55ea",
+      "files": [
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/heck-0.5.0/LICENSE-APACHE",
+          "source": "https://static.crates.io/crates/heck/heck-0.5.0.crate#heck-0.5.0/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/heck-0.5.0/LICENSE-MIT",
+          "source": "https://static.crates.io/crates/heck/heck-0.5.0.crate#heck-0.5.0/LICENSE-MIT",
+          "sha256": "7b63ecd5f1902af1b63729947373683c32745c16a10e8e6292e2e2dcd7e90ae0"
+        }
+      ]
+    },
+    {
+      "name": "itoa",
+      "version": "1.0.18",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "source": "https://static.crates.io/crates/itoa/itoa-1.0.18.crate",
+      "archive_sha256": "8f42a60cbdf9a97f5d2305f08a87dc4e09308d1276d28c869c684d7777685682",
+      "files": [
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/itoa-1.0.18/LICENSE-APACHE",
+          "source": "https://static.crates.io/crates/itoa/itoa-1.0.18.crate#itoa-1.0.18/LICENSE-APACHE",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/itoa-1.0.18/LICENSE-MIT",
+          "source": "https://static.crates.io/crates/itoa/itoa-1.0.18.crate#itoa-1.0.18/LICENSE-MIT",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ]
+    },
+    {
+      "name": "libc",
+      "version": "0.2.186",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "source": "https://static.crates.io/crates/libc/libc-0.2.186.crate",
+      "archive_sha256": "68ab91017fe16c622486840e4c83c9a37afeff978bd239b5293d61ece587de66",
+      "files": [
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/libc-0.2.186/LICENSE-APACHE",
+          "source": "https://static.crates.io/crates/libc/libc-0.2.186.crate#libc-0.2.186/LICENSE-APACHE",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/libc-0.2.186/LICENSE-MIT",
+          "source": "https://static.crates.io/crates/libc/libc-0.2.186.crate#libc-0.2.186/LICENSE-MIT",
+          "sha256": "123a331b5dbf04c30097fa43b8f858bc85df671fe776de498d01f3d6b7c1f69e"
+        }
+      ]
+    },
+    {
+      "name": "once_cell",
+      "version": "1.21.4",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "source": "https://static.crates.io/crates/once_cell/once_cell-1.21.4.crate",
+      "archive_sha256": "9f7c3e4beb33f85d45ae3e3a1792185706c8e16d043238c593331cc7cd313b50",
+      "files": [
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/once_cell-1.21.4/LICENSE-APACHE",
+          "source": "https://static.crates.io/crates/once_cell/once_cell-1.21.4.crate#once_cell-1.21.4/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/once_cell-1.21.4/LICENSE-MIT",
+          "source": "https://static.crates.io/crates/once_cell/once_cell-1.21.4.crate#once_cell-1.21.4/LICENSE-MIT",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ]
+    },
+    {
+      "name": "openssl",
+      "version": "0.10.79",
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ],
+      "source": "https://static.crates.io/crates/openssl/openssl-0.10.79.crate",
+      "archive_sha256": "bf0b434746ee2832f4f0baf10137e1cabb18cbe6912c69e2e33263c45250f542",
+      "files": [
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/openssl-0.10.79/LICENSE",
+          "source": "https://static.crates.io/crates/openssl/openssl-0.10.79.crate#openssl-0.10.79/LICENSE",
+          "sha256": "f3d4287b4a21c5176fea2f9bd4ae800696004e2fb8e05cbc818be513f188a941"
+        },
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/openssl-0.10.79/LICENSE-APACHE",
+          "source": "https://static.crates.io/crates/openssl/openssl-0.10.79.crate#openssl-0.10.79/LICENSE-APACHE",
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+        }
+      ]
+    },
+    {
+      "name": "openssl-macros",
+      "version": "0.1.1",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "source": "https://static.crates.io/crates/openssl-macros/openssl-macros-0.1.1.crate",
+      "archive_sha256": "a948666b637a0f465e8564c73e89d4dde00d72d4d473cc972f390fc3dcee7d9c",
+      "files": [
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/openssl-macros-0.1.1/LICENSE-APACHE",
+          "source": "https://static.crates.io/crates/openssl-macros/openssl-macros-0.1.1.crate#openssl-macros-0.1.1/LICENSE-APACHE",
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+        },
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/openssl-macros-0.1.1/LICENSE-MIT",
+          "source": "https://static.crates.io/crates/openssl-macros/openssl-macros-0.1.1.crate#openssl-macros-0.1.1/LICENSE-MIT",
+          "sha256": "ea5ab440900ab271811d5c2dc02a9de6e03a6956ac5727e85c11d76df5883d30"
+        }
+      ]
+    },
+    {
+      "name": "openssl-sys",
+      "version": "0.9.115",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "source": "https://static.crates.io/crates/openssl-sys/openssl-sys-0.9.115.crate",
+      "archive_sha256": "158fe5b292746440aa6e7a7e690e55aeb72d41505e2804c23c6973ad0e9c9781",
+      "files": [
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/openssl-sys-0.9.115/LICENSE-MIT",
+          "source": "https://static.crates.io/crates/openssl-sys/openssl-sys-0.9.115.crate#openssl-sys-0.9.115/LICENSE-MIT",
+          "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+        }
+      ]
+    },
+    {
+      "name": "pem",
+      "version": "3.0.6",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "source": "https://static.crates.io/crates/pem/pem-3.0.6.crate",
+      "archive_sha256": "1d30c53c26bc5b31a98cd02d20f25a7c8567146caf63ed593a9d87b2775291be",
+      "files": [
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/pem-3.0.6/LICENSE.md",
+          "source": "https://static.crates.io/crates/pem/pem-3.0.6.crate#pem-3.0.6/LICENSE.md",
+          "sha256": "b7c76ff4466a3aeb6a7d903e81b651335e97d64ecb857e2ee9812a36c6fd1acf"
+        }
+      ]
+    },
+    {
+      "name": "pkg-config",
+      "version": "0.3.33",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "source": "https://static.crates.io/crates/pkg-config/pkg-config-0.3.33.crate",
+      "archive_sha256": "19f132c84eca552bf34cab8ec81f1c1dcc229b811638f9d283dceabe58c5569e",
+      "files": [
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/pkg-config-0.3.33/LICENSE-APACHE",
+          "source": "https://static.crates.io/crates/pkg-config/pkg-config-0.3.33.crate#pkg-config-0.3.33/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/pkg-config-0.3.33/LICENSE-MIT",
+          "source": "https://static.crates.io/crates/pkg-config/pkg-config-0.3.33.crate#pkg-config-0.3.33/LICENSE-MIT",
+          "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+        }
+      ]
+    },
+    {
+      "name": "portable-atomic",
+      "version": "1.13.1",
+      "licenses": [
+        {
+          "expression": "Apache-2.0 OR MIT"
+        }
+      ],
+      "source": "https://static.crates.io/crates/portable-atomic/portable-atomic-1.13.1.crate",
+      "archive_sha256": "c33a9471896f1c69cecef8d20cbe2f7accd12527ce60845ff44c153bb2a21b49",
+      "files": [
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/portable-atomic-1.13.1/LICENSE-APACHE",
+          "source": "https://static.crates.io/crates/portable-atomic/portable-atomic-1.13.1.crate#portable-atomic-1.13.1/LICENSE-APACHE",
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+        },
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/portable-atomic-1.13.1/LICENSE-MIT",
+          "source": "https://static.crates.io/crates/portable-atomic/portable-atomic-1.13.1.crate#portable-atomic-1.13.1/LICENSE-MIT",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ]
+    },
+    {
+      "name": "proc-macro2",
+      "version": "1.0.106",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "source": "https://static.crates.io/crates/proc-macro2/proc-macro2-1.0.106.crate",
+      "archive_sha256": "8fd00f0bb2e90d81d1044c2b32617f68fcb9fa3bb7640c23e9c748e53fb30934",
+      "files": [
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/proc-macro2-1.0.106/LICENSE-APACHE",
+          "source": "https://static.crates.io/crates/proc-macro2/proc-macro2-1.0.106.crate#proc-macro2-1.0.106/LICENSE-APACHE",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/proc-macro2-1.0.106/LICENSE-MIT",
+          "source": "https://static.crates.io/crates/proc-macro2/proc-macro2-1.0.106.crate#proc-macro2-1.0.106/LICENSE-MIT",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ]
+    },
+    {
+      "name": "pyo3",
+      "version": "0.28.3",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "source": "https://static.crates.io/crates/pyo3/pyo3-0.28.3.crate",
+      "archive_sha256": "91fd8e38a3b50ed1167fb981cd6fd60147e091784c427b8f7183a7ee32c31c12",
+      "files": [
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/pyo3-0.28.3/LICENSE-APACHE",
+          "source": "https://static.crates.io/crates/pyo3/pyo3-0.28.3.crate#pyo3-0.28.3/LICENSE-APACHE",
+          "sha256": "32c76dbe0e73d79100d5ece77c158399f2e2541bc5c78548a4ba45c1cb53c5c9"
+        },
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/pyo3-0.28.3/LICENSE-MIT",
+          "source": "https://static.crates.io/crates/pyo3/pyo3-0.28.3.crate#pyo3-0.28.3/LICENSE-MIT",
+          "sha256": "afcbe3b2e6b37172b5a9ca869ee4c0b8cdc09316e5d4384864154482c33e5af6"
+        },
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/pyo3-0.28.3/pyo3-runtime/LICENSE-APACHE",
+          "source": "https://static.crates.io/crates/pyo3/pyo3-0.28.3.crate#pyo3-0.28.3/pyo3-runtime/LICENSE-APACHE",
+          "sha256": "32c76dbe0e73d79100d5ece77c158399f2e2541bc5c78548a4ba45c1cb53c5c9"
+        },
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/pyo3-0.28.3/pyo3-runtime/LICENSE-MIT",
+          "source": "https://static.crates.io/crates/pyo3/pyo3-0.28.3.crate#pyo3-0.28.3/pyo3-runtime/LICENSE-MIT",
+          "sha256": "afcbe3b2e6b37172b5a9ca869ee4c0b8cdc09316e5d4384864154482c33e5af6"
+        }
+      ]
+    },
+    {
+      "name": "pyo3-build-config",
+      "version": "0.28.3",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "source": "https://static.crates.io/crates/pyo3-build-config/pyo3-build-config-0.28.3.crate",
+      "archive_sha256": "e368e7ddfdeb98c9bca7f8383be1648fd84ab466bf2bc015e94008db6d35611e",
+      "files": [
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/pyo3-build-config-0.28.3/LICENSE-APACHE",
+          "source": "https://static.crates.io/crates/pyo3-build-config/pyo3-build-config-0.28.3.crate#pyo3-build-config-0.28.3/LICENSE-APACHE",
+          "sha256": "32c76dbe0e73d79100d5ece77c158399f2e2541bc5c78548a4ba45c1cb53c5c9"
+        },
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/pyo3-build-config-0.28.3/LICENSE-MIT",
+          "source": "https://static.crates.io/crates/pyo3-build-config/pyo3-build-config-0.28.3.crate#pyo3-build-config-0.28.3/LICENSE-MIT",
+          "sha256": "afcbe3b2e6b37172b5a9ca869ee4c0b8cdc09316e5d4384864154482c33e5af6"
+        }
+      ]
+    },
+    {
+      "name": "pyo3-ffi",
+      "version": "0.28.3",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "source": "https://static.crates.io/crates/pyo3-ffi/pyo3-ffi-0.28.3.crate",
+      "archive_sha256": "7f29e10af80b1f7ccaf7f69eace800a03ecd13e883acfacc1e5d0988605f651e",
+      "files": [
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/pyo3-ffi-0.28.3/LICENSE-APACHE",
+          "source": "https://static.crates.io/crates/pyo3-ffi/pyo3-ffi-0.28.3.crate#pyo3-ffi-0.28.3/LICENSE-APACHE",
+          "sha256": "32c76dbe0e73d79100d5ece77c158399f2e2541bc5c78548a4ba45c1cb53c5c9"
+        },
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/pyo3-ffi-0.28.3/LICENSE-MIT",
+          "source": "https://static.crates.io/crates/pyo3-ffi/pyo3-ffi-0.28.3.crate#pyo3-ffi-0.28.3/LICENSE-MIT",
+          "sha256": "afcbe3b2e6b37172b5a9ca869ee4c0b8cdc09316e5d4384864154482c33e5af6"
+        }
+      ]
+    },
+    {
+      "name": "pyo3-macros",
+      "version": "0.28.3",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "source": "https://static.crates.io/crates/pyo3-macros/pyo3-macros-0.28.3.crate",
+      "archive_sha256": "df6e520eff47c45997d2fc7dd8214b25dd1310918bbb2642156ef66a67f29813",
+      "files": [
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/pyo3-macros-0.28.3/LICENSE-APACHE",
+          "source": "https://static.crates.io/crates/pyo3-macros/pyo3-macros-0.28.3.crate#pyo3-macros-0.28.3/LICENSE-APACHE",
+          "sha256": "32c76dbe0e73d79100d5ece77c158399f2e2541bc5c78548a4ba45c1cb53c5c9"
+        },
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/pyo3-macros-0.28.3/LICENSE-MIT",
+          "source": "https://static.crates.io/crates/pyo3-macros/pyo3-macros-0.28.3.crate#pyo3-macros-0.28.3/LICENSE-MIT",
+          "sha256": "afcbe3b2e6b37172b5a9ca869ee4c0b8cdc09316e5d4384864154482c33e5af6"
+        }
+      ]
+    },
+    {
+      "name": "pyo3-macros-backend",
+      "version": "0.28.3",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "source": "https://static.crates.io/crates/pyo3-macros-backend/pyo3-macros-backend-0.28.3.crate",
+      "archive_sha256": "c4cdc218d835738f81c2338f822078af45b4afdf8b2e33cbb5916f108b813acb",
+      "files": [
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/pyo3-macros-backend-0.28.3/LICENSE-APACHE",
+          "source": "https://static.crates.io/crates/pyo3-macros-backend/pyo3-macros-backend-0.28.3.crate#pyo3-macros-backend-0.28.3/LICENSE-APACHE",
+          "sha256": "32c76dbe0e73d79100d5ece77c158399f2e2541bc5c78548a4ba45c1cb53c5c9"
+        },
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/pyo3-macros-backend-0.28.3/LICENSE-MIT",
+          "source": "https://static.crates.io/crates/pyo3-macros-backend/pyo3-macros-backend-0.28.3.crate#pyo3-macros-backend-0.28.3/LICENSE-MIT",
+          "sha256": "afcbe3b2e6b37172b5a9ca869ee4c0b8cdc09316e5d4384864154482c33e5af6"
+        }
+      ]
+    },
+    {
+      "name": "quote",
+      "version": "1.0.45",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "source": "https://static.crates.io/crates/quote/quote-1.0.45.crate",
+      "archive_sha256": "41f2619966050689382d2b44f664f4bc593e129785a36d6ee376ddf37259b924",
+      "files": [
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/quote-1.0.45/LICENSE-APACHE",
+          "source": "https://static.crates.io/crates/quote/quote-1.0.45.crate#quote-1.0.45/LICENSE-APACHE",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/quote-1.0.45/LICENSE-MIT",
+          "source": "https://static.crates.io/crates/quote/quote-1.0.45.crate#quote-1.0.45/LICENSE-MIT",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ]
+    },
+    {
+      "name": "self_cell",
+      "version": "1.2.2",
+      "licenses": [
+        {
+          "expression": "Apache-2.0 OR GPL-2.0-only"
+        }
+      ],
+      "source": "https://static.crates.io/crates/self_cell/self_cell-1.2.2.crate",
+      "archive_sha256": "b12e76d157a900eb52e81bc6e9f3069344290341720e9178cde2407113ac8d89",
+      "files": [
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/self_cell-1.2.2/LICENSE-APACHE",
+          "source": "https://static.crates.io/crates/self_cell/self_cell-1.2.2.crate#self_cell-1.2.2/LICENSE-APACHE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        },
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/self_cell-1.2.2/LICENSE-GPLv2",
+          "source": "https://static.crates.io/crates/self_cell/self_cell-1.2.2.crate#self_cell-1.2.2/LICENSE-GPLv2",
+          "sha256": "f9c375a1be4a41f7b70301dd83c91cb89e41567478859b77eef375a52d782505"
+        }
+      ]
+    },
+    {
+      "name": "shlex",
+      "version": "1.3.0",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "source": "https://static.crates.io/crates/shlex/shlex-1.3.0.crate",
+      "archive_sha256": "0fda2ff0d084019ba4d7c6f371c95d8fd75ce3524c3cb8fb653a3023f6323e64",
+      "files": [
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/shlex-1.3.0/LICENSE-APACHE",
+          "source": "https://static.crates.io/crates/shlex/shlex-1.3.0.crate#shlex-1.3.0/LICENSE-APACHE",
+          "sha256": "553fffcd9b1cb158bc3e9edc35da85ca5c3b3d7d2e61c883ebcfa8a65814b583"
+        },
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/shlex-1.3.0/LICENSE-MIT",
+          "source": "https://static.crates.io/crates/shlex/shlex-1.3.0.crate#shlex-1.3.0/LICENSE-MIT",
+          "sha256": "4455bf75a91154108304cb283e0fea9948c14f13e20d60887cf2552449dea3b1"
+        }
+      ]
+    },
+    {
+      "name": "syn",
+      "version": "2.0.117",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "source": "https://static.crates.io/crates/syn/syn-2.0.117.crate",
+      "archive_sha256": "e665b8803e7b1d2a727f4023456bbbbe74da67099c585258af0ad9c5013b9b99",
+      "files": [
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/syn-2.0.117/LICENSE-APACHE",
+          "source": "https://static.crates.io/crates/syn/syn-2.0.117.crate#syn-2.0.117/LICENSE-APACHE",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/syn-2.0.117/LICENSE-MIT",
+          "source": "https://static.crates.io/crates/syn/syn-2.0.117.crate#syn-2.0.117/LICENSE-MIT",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ]
+    },
+    {
+      "name": "target-lexicon",
+      "version": "0.13.5",
+      "licenses": [
+        {
+          "expression": "Apache-2.0 WITH LLVM-exception"
+        }
+      ],
+      "source": "https://static.crates.io/crates/target-lexicon/target-lexicon-0.13.5.crate",
+      "archive_sha256": "adb6935a6f5c20170eeceb1a3835a49e12e19d792f6dd344ccc76a985ca5a6ca",
+      "files": [
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/target-lexicon-0.13.5/LICENSE",
+          "source": "https://static.crates.io/crates/target-lexicon/target-lexicon-0.13.5.crate#target-lexicon-0.13.5/LICENSE",
+          "sha256": "268872b9816f90fd8e85db5a28d33f8150ebb8dd016653fb39ef1f94f2686bc5"
+        }
+      ]
+    },
+    {
+      "name": "unicode-ident",
+      "version": "1.0.24",
+      "licenses": [
+        {
+          "expression": "(MIT OR Apache-2.0) AND Unicode-3.0"
+        }
+      ],
+      "source": "https://static.crates.io/crates/unicode-ident/unicode-ident-1.0.24.crate",
+      "archive_sha256": "e6e4313cd5fcd3dad5cafa179702e2b244f760991f45397d14d4ebf38247da75",
+      "files": [
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/unicode-ident-1.0.24/LICENSE-APACHE",
+          "source": "https://static.crates.io/crates/unicode-ident/unicode-ident-1.0.24.crate#unicode-ident-1.0.24/LICENSE-APACHE",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+        },
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/unicode-ident-1.0.24/LICENSE-MIT",
+          "source": "https://static.crates.io/crates/unicode-ident/unicode-ident-1.0.24.crate#unicode-ident-1.0.24/LICENSE-MIT",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        },
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/unicode-ident-1.0.24/LICENSE-UNICODE",
+          "source": "https://static.crates.io/crates/unicode-ident/unicode-ident-1.0.24.crate#unicode-ident-1.0.24/LICENSE-UNICODE",
+          "sha256": "f7db81051789b729fea528a63ec4c938fdcb93d9d61d97dc8cc2e9df6d47f2a1"
+        }
+      ]
+    },
+    {
+      "name": "vcpkg",
+      "version": "0.2.15",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "source": "https://static.crates.io/crates/vcpkg/vcpkg-0.2.15.crate",
+      "archive_sha256": "accd4ea62f7bb7a82fe23066fb0957d48ef677f6eeb8215f372f52e48bb32426",
+      "files": [
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/vcpkg-0.2.15/LICENSE-APACHE",
+          "source": "https://static.crates.io/crates/vcpkg/vcpkg-0.2.15.crate#vcpkg-0.2.15/LICENSE-APACHE",
+          "sha256": "60c93a31f490375aadf64098b75f10715010379541021e00261045d7800611d3"
+        },
+        {
+          "file": "cryptography-48.0.0/rust-dependencies/vcpkg-0.2.15/LICENSE-MIT",
+          "source": "https://static.crates.io/crates/vcpkg/vcpkg-0.2.15.crate#vcpkg-0.2.15/LICENSE-MIT",
+          "sha256": "016d20f335060a70e79d9fcf8dfaa6201114d65d592211f4bdfb8ae9ca2bc1dc"
+        }
+      ]
+    }
+  ],
+  "upstream_notice_fetches": [
+    {
+      "file": "Roboto-2.137/LICENSE-APACHE.txt",
+      "source": "https://raw.githubusercontent.com/googlefonts/roboto/main/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "file": "certifi-2026.1.4/MPL-2.0.txt",
+      "source": "https://www.mozilla.org/media/MPL/2.0/index.txt",
+      "sha256": "3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04"
+    },
+    {
+      "file": "OpenSSL-4.0.0/LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/openssl/openssl/openssl-4.0.0/LICENSE.txt",
+      "sha256": "7d5450cb2d142651b8afa315b5f238efc805dad827d91ba367d8516bc9d49e7a"
+    },
+    {
+      "file": "OpenSSL-3.0.16/LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/openssl/openssl/openssl-3.0.16/LICENSE.txt",
+      "sha256": "7d5450cb2d142651b8afa315b5f238efc805dad827d91ba367d8516bc9d49e7a"
+    },
+    {
+      "file": "Tcl-8.6.15/license.terms",
+      "source": "https://raw.githubusercontent.com/tcltk/tcl/core-8-6-15/license.terms",
+      "sha256": "c0a69a2bfd757361ec7e6143973b103c90409316b49e9c88db26ad6388e79f16"
+    },
+    {
+      "file": "libffi-3.4.4/LICENSE",
+      "source": "https://raw.githubusercontent.com/libffi/libffi/v3.4.4/LICENSE",
+      "sha256": "2c9c2acb9743e6b007b91350475308aee44691d96aa20eacef8e199988c8c388"
+    },
+    {
+      "file": "zlib-1.3.1/LICENSE",
+      "source": "https://raw.githubusercontent.com/madler/zlib/v1.3.1/LICENSE",
+      "sha256": "845efc77857d485d91fb3e0b884aaa929368c717ae8186b66fe1ed2495753243"
+    },
+    {
+      "file": "xz-5.2.5/COPYING",
+      "source": "https://raw.githubusercontent.com/python/cpython-source-deps/xz-5.2.5/COPYING",
+      "sha256": "bcb02973ef6e87ea73d331b3a80df7748407f17efdb784b61b47e0e610d3bb5c"
+    },
+    {
+      "file": "expat-cpython-3.13.3/COPYING",
+      "source": "https://raw.githubusercontent.com/python/cpython/v3.13.3/Modules/expat/COPYING",
+      "sha256": "122f2c27000472a201d337b9b31f7eb2b52d091b02857061a8880371612d9534"
+    },
+    {
+      "file": "mpdecimal-4.0.0/COPYRIGHT.txt",
+      "source": "https://raw.githubusercontent.com/python/cpython-source-deps/mpdecimal-4.0.0/COPYRIGHT.txt",
+      "sha256": "2713324211652ce4a60e6e21e54f9dc3004299e591b0933a352f1a89c5fb53c2"
+    }
+  ],
+  "runtime_components": [
+    {
+      "name": "Python",
+      "version": "3.13.3",
+      "version_source": "builder interpreter sys.version"
+    },
+    {
+      "name": "Node.js (Playwright driver)",
+      "version": "24.22.1",
+      "version_source": "vendor/playwright/driver/node.exe --version"
+    },
+    {
+      "name": "Playwright driver package",
+      "version": "1.64.0-beta-1791568591000",
+      "version_source": "vendor/playwright/driver/package/package.json"
+    },
+    {
+      "name": "Tcl",
+      "version": "8.6.15",
+      "version_source": "tkinter.Tcl info patchlevel and built DLL FileVersion"
+    },
+    {
+      "name": "Tk",
+      "version": "8.6.15",
+      "version_source": "built tk86t.dll FileVersion"
+    },
+    {
+      "name": "OpenSSL (Python _ssl/_hashlib)",
+      "version": "3.0.16",
+      "version_source": "ssl.OPENSSL_VERSION and libcrypto-3.dll FileVersion"
+    },
+    {
+      "name": "OpenSSL (cryptography wheel)",
+      "version": "4.0.0",
+      "version_source": "cryptography backend and original wheel SBOM"
+    },
+    {
+      "name": "zlib",
+      "version": "1.3.1",
+      "version_source": "zlib.ZLIB_RUNTIME_VERSION and zlib1.dll FileVersion"
+    },
+    {
+      "name": "Expat",
+      "version": "2.7.1",
+      "version_source": "pyexpat.EXPAT_VERSION"
+    },
+    {
+      "name": "mpdecimal",
+      "version": "4.0.0",
+      "version_source": "_decimal.__libmpdec_version__"
+    },
+    {
+      "name": "libffi",
+      "version": "3.4.4",
+      "version_source": "CPython v3.13.3 PCbuild/get_externals.bat; libffi-8.dll has no version metadata"
+    },
+    {
+      "name": "XZ/liblzma",
+      "version": "5.2.5",
+      "version_source": "CPython v3.13.3 PCbuild/get_externals.bat; only library code is relevant"
+    },
+    {
+      "name": "Roboto",
+      "version": "2.137; 2017",
+      "version_source": "bundled TTF name table"
+    },
+    {
+      "name": "Microsoft VC runtime",
+      "version": "14.42.34438.0",
+      "version_source": "built VCRUNTIME140.dll FileVersion; distribution conditions retained in Python LICENSE.txt"
+    }
+  ],
+  "build_validation": {
+    "review_date": "2026-11-03",
+    "analysis_toc_sha256": "b004eb3bbdd7ee35b445ef5a5ff98d4b1cf67aa48cb9d937c9a1a6f393dafbb5",
+    "numpy_and_threadpoolctl_rows": 0,
+    "numpy_paths_in_release_runtime": 0,
+    "license_file_hashes_verified": 116,
+    "documentation_links_verified": true,
+    "private_paths_in_manifest": false
+  }
+}

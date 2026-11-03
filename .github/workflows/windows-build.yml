@@ -1,0 +1,91 @@
+name: Windows build
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main, master]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: windows-latest
+    timeout-minutes: 30
+    env:
+      PYTHONUTF8: '1'
+      PYTHONIOENCODING: utf-8
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13.3'
+          architecture: x64
+          cache: pip
+          cache-dependency-path: |
+            requirements.txt
+            requirements-dev.txt
+
+      - name: Install build dependencies
+        run: python -m pip install -r requirements-dev.txt
+
+      - name: Run offline tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Build desktop application
+        run: python tools/build_release.py
+
+      - name: Verify portable build and create clean archive
+        shell: pwsh
+        run: |
+          $releaseDirectory = Join-Path $env:GITHUB_WORKSPACE 'build_release/签到助手'
+          $executable = Join-Path $releaseDirectory '签到助手.exe'
+          if (-not (Test-Path -LiteralPath $executable)) {
+            throw 'The desktop executable was not built.'
+          }
+
+          $smokeDirectory = Join-Path $env:RUNNER_TEMP 'community-checkin-portable-check'
+          New-Item -ItemType Directory -Path $smokeDirectory -Force | Out-Null
+          $reportPath = Join-Path $smokeDirectory 'selfcheck.json'
+          $smokeData = Join-Path $smokeDirectory 'data'
+          $arguments = @('--self-check', ('"' + $reportPath + '"'), '--data-dir', ('"' + $smokeData + '"'))
+          $process = Start-Process -FilePath $executable -ArgumentList $arguments -Wait -PassThru -WindowStyle Hidden
+          if ($process.ExitCode -ne 0 -or -not (Test-Path -LiteralPath $reportPath)) {
+            throw 'The portable application self-check failed.'
+          }
+          $report = Get-Content -LiteralPath $reportPath -Raw | ConvertFrom-Json
+          if (-not $report.ok -or $report.module_count -lt 6 -or -not $report.encrypted_at_rest) {
+            throw 'The portable build is missing modules or local encryption support.'
+          }
+          if ($report.auto_enabled -or $report.background_enabled) {
+            throw 'A clean release must keep automatic execution disabled.'
+          }
+          foreach ($forbiddenDirectory in @('data', 'vendor', 'qa', '__pycache__')) {
+            if (Test-Path -LiteralPath (Join-Path $releaseDirectory $forbiddenDirectory)) {
+              throw "Personal or source-only directory found in release: $forbiddenDirectory"
+            }
+          }
+          $privateNames = @('credentials.bin', 'settings.json', 'state.json', 'config.yaml', 'gf2gacha.db')
+          $privateFiles = @(Get-ChildItem -LiteralPath $releaseDirectory -Recurse -File |
+            Where-Object { $_.Name -in $privateNames })
+          if ($privateFiles.Count -ne 0) {
+            throw 'A personal configuration file was found in the release.'
+          }
+
+          python tools/package_release.py
+          if ($LASTEXITCODE -ne 0) { throw 'Clean package export failed.' }
+
+      - name: Upload Windows package
+        uses: actions/upload-artifact@v4
+        with:
+          name: community-checkin-windows-x64
+          path: |
+            artifacts/community-checkin-windows-x64.zip
+            artifacts/community-checkin-source.zip
+            artifacts/SHA256SUMS.txt
+          if-no-files-found: error
+          retention-days: 14
